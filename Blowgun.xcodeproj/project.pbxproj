@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EBED081C0294DF00BCE39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBED071C0294DF00BCE39A /* AppDelegate.swift */; };
+		17EBED0A1C0294DF00BCE39A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED091C0294DF00BCE39A /* GameScene.sks */; };
+		17EBED0C1C0294DF00BCE39A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBED0B1C0294DF00BCE39A /* GameScene.swift */; };
+		17EBED0E1C0294DF00BCE39A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBED0D1C0294DF00BCE39A /* GameViewController.swift */; };
+		17EBED111C0294DF00BCE39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED0F1C0294DF00BCE39A /* Main.storyboard */; };
+		17EBED131C0294DF00BCE39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED121C0294DF00BCE39A /* Assets.xcassets */; };
+		17EBED161C0294DF00BCE39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED141C0294DF00BCE39A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17EBED041C0294DF00BCE39A /* Blowgun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blowgun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EBED071C0294DF00BCE39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17EBED091C0294DF00BCE39A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		17EBED0B1C0294DF00BCE39A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		17EBED0D1C0294DF00BCE39A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		17EBED101C0294DF00BCE39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17EBED121C0294DF00BCE39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17EBED151C0294DF00BCE39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17EBED171C0294DF00BCE39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EBED011C0294DF00BCE39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EBECFB1C0294DF00BCE39A = {
+			isa = PBXGroup;
+			children = (
+				17EBED061C0294DF00BCE39A /* Blowgun */,
+				17EBED051C0294DF00BCE39A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EBED051C0294DF00BCE39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EBED041C0294DF00BCE39A /* Blowgun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EBED061C0294DF00BCE39A /* Blowgun */ = {
+			isa = PBXGroup;
+			children = (
+				17EBED071C0294DF00BCE39A /* AppDelegate.swift */,
+				17EBED091C0294DF00BCE39A /* GameScene.sks */,
+				17EBED0B1C0294DF00BCE39A /* GameScene.swift */,
+				17EBED0D1C0294DF00BCE39A /* GameViewController.swift */,
+				17EBED0F1C0294DF00BCE39A /* Main.storyboard */,
+				17EBED121C0294DF00BCE39A /* Assets.xcassets */,
+				17EBED141C0294DF00BCE39A /* LaunchScreen.storyboard */,
+				17EBED171C0294DF00BCE39A /* Info.plist */,
+			);
+			path = Blowgun;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EBED031C0294DF00BCE39A /* Blowgun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EBED1A1C0294DF00BCE39A /* Build configuration list for PBXNativeTarget "Blowgun" */;
+			buildPhases = (
+				17EBED001C0294DF00BCE39A /* Sources */,
+				17EBED011C0294DF00BCE39A /* Frameworks */,
+				17EBED021C0294DF00BCE39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blowgun;
+			productName = Blowgun;
+			productReference = 17EBED041C0294DF00BCE39A /* Blowgun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EBECFC1C0294DF00BCE39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Eric Ford Consulting";
+				TargetAttributes = {
+					17EBED031C0294DF00BCE39A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 17EBECFF1C0294DF00BCE39A /* Build configuration list for PBXProject "Blowgun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17EBECFB1C0294DF00BCE39A;
+			productRefGroup = 17EBED051C0294DF00BCE39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EBED031C0294DF00BCE39A /* Blowgun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17EBED021C0294DF00BCE39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EBED0A1C0294DF00BCE39A /* GameScene.sks in Resources */,
+				17EBED161C0294DF00BCE39A /* LaunchScreen.storyboard in Resources */,
+				17EBED131C0294DF00BCE39A /* Assets.xcassets in Resources */,
+				17EBED111C0294DF00BCE39A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EBED001C0294DF00BCE39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EBED0C1C0294DF00BCE39A /* GameScene.swift in Sources */,
+				17EBED0E1C0294DF00BCE39A /* GameViewController.swift in Sources */,
+				17EBED081C0294DF00BCE39A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17EBED0F1C0294DF00BCE39A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EBED101C0294DF00BCE39A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17EBED141C0294DF00BCE39A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EBED151C0294DF00BCE39A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17EBED181C0294DF00BCE39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17EBED191C0294DF00BCE39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17EBED1B1C0294DF00BCE39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blowgun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericfordconsulting.Blowgun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17EBED1C1C0294DF00BCE39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blowgun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericfordconsulting.Blowgun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EBECFF1C0294DF00BCE39A /* Build configuration list for PBXProject "Blowgun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EBED181C0294DF00BCE39A /* Debug */,
+				17EBED191C0294DF00BCE39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EBED1A1C0294DF00BCE39A /* Build configuration list for PBXNativeTarget "Blowgun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EBED1B1C0294DF00BCE39A /* Debug */,
+				17EBED1C1C0294DF00BCE39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17EBECFC1C0294DF00BCE39A /* Project object */;
+}
