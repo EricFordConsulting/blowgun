@@ -14,6 +14,14 @@
 		17EBED111C0294DF00BCE39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED0F1C0294DF00BCE39A /* Main.storyboard */; };
 		17EBED131C0294DF00BCE39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED121C0294DF00BCE39A /* Assets.xcassets */; };
 		17EBED161C0294DF00BCE39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED141C0294DF00BCE39A /* LaunchScreen.storyboard */; };
+		17EBED211C02A61700BCE39A /* backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED1E1C02A61700BCE39A /* backdrop.png */; };
+		17EBED221C02A61700BCE39A /* foreground.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED1F1C02A61700BCE39A /* foreground.png */; };
+		17EBED231C02A61700BCE39A /* midground.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED201C02A61700BCE39A /* midground.png */; };
+		17EBED261C02A91C00BCE39A /* protag_firing.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED241C02A91C00BCE39A /* protag_firing.png */; };
+		17EBED271C02A91C00BCE39A /* protag_standing.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED251C02A91C00BCE39A /* protag_standing.png */; };
+		17EBED2B1C02AACD00BCE39A /* blueBalloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED281C02AACD00BCE39A /* blueBalloon.png */; };
+		17EBED2C1C02AACD00BCE39A /* redBalloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED291C02AACD00BCE39A /* redBalloon.png */; };
+		17EBED2D1C02AACD00BCE39A /* yellowBalloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EBED2A1C02AACD00BCE39A /* yellowBalloon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		17EBED121C0294DF00BCE39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17EBED151C0294DF00BCE39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17EBED171C0294DF00BCE39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EBED1E1C02A61700BCE39A /* backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdrop.png; sourceTree = "<group>"; };
+		17EBED1F1C02A61700BCE39A /* foreground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foreground.png; sourceTree = "<group>"; };
+		17EBED201C02A61700BCE39A /* midground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midground.png; sourceTree = "<group>"; };
+		17EBED241C02A91C00BCE39A /* protag_firing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = protag_firing.png; sourceTree = "<group>"; };
+		17EBED251C02A91C00BCE39A /* protag_standing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = protag_standing.png; sourceTree = "<group>"; };
+		17EBED281C02AACD00BCE39A /* blueBalloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBalloon.png; sourceTree = "<group>"; };
+		17EBED291C02AACD00BCE39A /* redBalloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redBalloon.png; sourceTree = "<group>"; };
+		17EBED2A1C02AACD00BCE39A /* yellowBalloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowBalloon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 		17EBED061C0294DF00BCE39A /* Blowgun */ = {
 			isa = PBXGroup;
 			children = (
+				17EBED1D1C02A5CE00BCE39A /* Images */,
 				17EBED071C0294DF00BCE39A /* AppDelegate.swift */,
 				17EBED091C0294DF00BCE39A /* GameScene.sks */,
 				17EBED0B1C0294DF00BCE39A /* GameScene.swift */,
@@ -68,6 +85,21 @@
 				17EBED171C0294DF00BCE39A /* Info.plist */,
 			);
 			path = Blowgun;
+			sourceTree = "<group>";
+		};
+		17EBED1D1C02A5CE00BCE39A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				17EBED281C02AACD00BCE39A /* blueBalloon.png */,
+				17EBED291C02AACD00BCE39A /* redBalloon.png */,
+				17EBED2A1C02AACD00BCE39A /* yellowBalloon.png */,
+				17EBED241C02A91C00BCE39A /* protag_firing.png */,
+				17EBED251C02A91C00BCE39A /* protag_standing.png */,
+				17EBED1E1C02A61700BCE39A /* backdrop.png */,
+				17EBED1F1C02A61700BCE39A /* foreground.png */,
+				17EBED201C02A61700BCE39A /* midground.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +161,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				17EBED0A1C0294DF00BCE39A /* GameScene.sks in Resources */,
+				17EBED211C02A61700BCE39A /* backdrop.png in Resources */,
+				17EBED271C02A91C00BCE39A /* protag_standing.png in Resources */,
+				17EBED221C02A61700BCE39A /* foreground.png in Resources */,
+				17EBED231C02A61700BCE39A /* midground.png in Resources */,
 				17EBED161C0294DF00BCE39A /* LaunchScreen.storyboard in Resources */,
 				17EBED131C0294DF00BCE39A /* Assets.xcassets in Resources */,
 				17EBED111C0294DF00BCE39A /* Main.storyboard in Resources */,
+				17EBED261C02A91C00BCE39A /* protag_firing.png in Resources */,
+				17EBED2C1C02AACD00BCE39A /* redBalloon.png in Resources */,
+				17EBED2B1C02AACD00BCE39A /* blueBalloon.png in Resources */,
+				17EBED2D1C02AACD00BCE39A /* yellowBalloon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Blowgun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericfordconsulting.Blowgun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -269,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Blowgun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericfordconsulting.Blowgun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
